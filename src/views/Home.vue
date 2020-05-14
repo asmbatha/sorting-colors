@@ -2,7 +2,12 @@
     <div class="home">
         <div class="algorithms">
             <div class="algorithm-item">
-                <div class="heading">Sorting Colours</div>
+                <div class="header">
+                    <div class="heading">Sorting Colours</div>
+                    <a class="github" href="https://github.com/asmbatha/sorting-colors" target="_blank">
+                        <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                    </a>
+                </div>
                 <div class="introduction">
                     This is a visualization of a colour sorting algorithm.
                     The purpose is to find the shortest path connecting all colours.
@@ -73,7 +78,7 @@
 
             <div class="algorithm-item profile">
                 <a
-                    href="https://asmbatha.github.io/"
+                    href="https://ayanda-mbatha.web.app/"
                     class="profile-card"
                     target="_blank"
                 >
@@ -341,9 +346,22 @@ export default {
                 font-size: .75em;
             }
 
-            .heading {
+            .header {
+                display: flex;
+                align-items: center;
                 padding-top: .5em;
                 font-size: 2em;
+                .heading {
+                    flex: 1;
+                }
+                .github {
+                    background: #24292e;
+                    color: white;
+                    font-size: .5em;
+                    padding: 6px 8px;
+                    border-radius: 3px;
+                    text-decoration: none;
+                }
             }
             .introduction {
                 box-sizing: border-box;

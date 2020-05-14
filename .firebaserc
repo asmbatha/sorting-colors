@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "ayanda-mbatha"
+  },
+  "targets": {
+    "ayanda-mbatha": {
+      "hosting": {
+        "sorting-colours": [
+          "sorting-colours"
+        ]
+      }
+    }
+  }
+}
