@@ -78,14 +78,14 @@
 
             <div class="algorithm-item profile">
                 <a
-                    href="https://ayanda-mbatha.web.app/"
+                    href="https://ayandambatha.web.app/"
                     class="profile-card"
                     target="_blank"
                 >
                     <img alt="Vue logo" src="@/assets/avator.jpeg" class="avator">
                     <div class="details">
                         by
-                        <div class="name">Ayanda S. Mbatha</div>
+                        <div class="name">Ayanda Mbatha</div>
                     </div>
                     <span class="portfolio"><i class="fas fa-briefcase"></i> Portfolio</span>
                 </a>
